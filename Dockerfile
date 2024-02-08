@@ -6,8 +6,8 @@ LABEL "com.github.actions.description"="Build & Release Debug APK on GitHub. Loa
 LABEL "com.github.actions.icon"="package"
 LABEL "com.github.actions.color"="blue"
 
-LABEL "repository"="https://github.com/valley-fordham/action-release-debugapk"
-LABEL "maintainer"="valley-fordham"
+LABEL "repository"="https://github.com/rfs-dev-team/action-release-debugapk"
+LABEL "maintainer"="rfs-dev-team"
 
 RUN apt update \
 	&& apt -y upgrade \
