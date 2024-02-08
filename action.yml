@@ -1,0 +1,13 @@
+name: "Build and Release Debug APK"
+branding:
+  icon: "package"
+  color: "blue"
+description: "Build & Release Debug APK on GitHub. Load version number from file."
+author: "rfs-dev-team"
+inputs:
+  GITHUB_TOKEN:
+    required: true
+    description: "GitHub secret token to allow automated publishing of APK to release."
+runs:
+  using: "docker"
+  image: "Dockerfile"
